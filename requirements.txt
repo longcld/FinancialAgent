@@ -1,0 +1,13 @@
+pymupdf4llm
+langgraph-swarm
+langchain-openai
+dotenv
+loguru
+natsort
+pydantic-settings
+streamlit
+fastapi
+uvicorn
+cryptography
+sseclient-py
+langchain_experimental

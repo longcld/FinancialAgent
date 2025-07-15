@@ -1,0 +1,109 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache*/
+__pycache__/
+
+# Compiled files
+*.class
+*.py[cod]
+
+# Node.js artifacts
+node_modules/
+dist/
+
+# Python virtual environments
+.venv/
+
+# Java artifacts
+*.jar
+target/
+
+# Maven
+target/
+dist/
+
+# JetBrains IDE
+.idea/
+
+# Unit test reports
+TEST*.xml
+
+# Operating system files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Executable files
+*.app
+*.exe
+*.war
+
+# Media files
+*.avi
+*.flv
+*.mov
+*.mp4
+*.tiff
+*.wmv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment files
+*.env
+*.env.*
+
+# Images
+*.jpg
+*.png
+
+# JSON files
+*.json
+*.jsonl
+
+# Miscellaneous
+tags
+
+models
+
+
+# Frontend
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+*package-lock.json*
+
+# Temporary folder
+/temp
