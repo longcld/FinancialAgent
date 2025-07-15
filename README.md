@@ -1,3 +1,8 @@
+# FINANCIAL AGENT
+![Architecture](docs/architecture.png)
+
+### [See in details](docs/SystemDesign.pdf)
+
 ## Installation
 
 ```bash
